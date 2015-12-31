@@ -25,6 +25,7 @@ public class Sudoku_Solver {
 		public GUI(){
 			setTitle("Zach's Sudoku Solver");
 			setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+			setResizable(false);
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			setLayout(new GridLayout(10, 9));
 			boolean check = true;
